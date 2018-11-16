@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilloutHackathon2018.Interface", "ChilloutHackathon2018.Interface\ChilloutHackathon2018.Interface.csproj", "{8CBDD966-B9A3-4D51-B403-AF9EA5452BCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceModels", "InterfaceModels\InterfaceModels.csproj", "{538E7B36-34E8-4810-80E9-CD1E6E5181F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseCommunication", "DatabaseCommunication\DatabaseCommunication.csproj", "{924AE20C-7236-4285-BC97-CB2A1A63E52D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8CBDD966-B9A3-4D51-B403-AF9EA5452BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CBDD966-B9A3-4D51-B403-AF9EA5452BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CBDD966-B9A3-4D51-B403-AF9EA5452BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538E7B36-34E8-4810-80E9-CD1E6E5181F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538E7B36-34E8-4810-80E9-CD1E6E5181F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538E7B36-34E8-4810-80E9-CD1E6E5181F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538E7B36-34E8-4810-80E9-CD1E6E5181F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924AE20C-7236-4285-BC97-CB2A1A63E52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924AE20C-7236-4285-BC97-CB2A1A63E52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924AE20C-7236-4285-BC97-CB2A1A63E52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924AE20C-7236-4285-BC97-CB2A1A63E52D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

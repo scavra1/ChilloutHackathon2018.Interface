@@ -12,7 +12,7 @@ namespace ChilloutHackathon2018.Interface.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2", "value3", "vfxuivnfudi" };
         }
 
         // GET api/values/5
