@@ -8,7 +8,7 @@ namespace DatabaseCommunication.Queries
 {
     public class UserQueries
     {
-        public static string FindUser = @"
+        public const string FindUser = @"
 SELECT  [UserID]
         , [FirstName]
         , [LastName]

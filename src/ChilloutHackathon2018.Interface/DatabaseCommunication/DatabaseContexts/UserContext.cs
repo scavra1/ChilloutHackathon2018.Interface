@@ -1,9 +1,8 @@
-﻿namespace DatabaseCommunication
+﻿namespace DatabaseCommunication.DatabaseContexts
 {
     using DatabaseCommunication.Queries;
     using InterfaceModels.User;
     using System.Collections.Generic;
-    using System.Threading.Tasks;
 
     /// <summary>
     /// User database context
@@ -13,8 +12,7 @@
         /// <summary>
         /// Default Constructor
         /// </summary>
-        /// <param name="connectionString"></param>
-        public UserContext(string connectionString) : base(connectionString)
+        public UserContext() : base()
         {
         }
 

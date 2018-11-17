@@ -1,8 +1,7 @@
 ﻿namespace ChilloutHackathon2018.Interface.Controllers
 {
-    using DatabaseCommunication;
+    using DatabaseCommunication.DatabaseContexts;
     using InterfaceModels.User;
-    using System.Threading.Tasks;
     using System.Web.Http;
 
     public class UsersController : ApiController
@@ -11,7 +10,7 @@
 
         public UsersController() : base()
         {
-            
+            userContext = new UserContext();
         }
 
         [HttpGet]
