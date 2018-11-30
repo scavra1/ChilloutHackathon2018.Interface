@@ -28,7 +28,7 @@
         {
             var parameters = new Dictionary<string, object>();
 
-            parameters.Add("UserID", userMarker.UserID);
+            parameters.Add("UserID", 1);
             parameters.Add("Picture", userMarker.Picture);
             parameters.Add("ModelID", userMarker.ModelID);
 

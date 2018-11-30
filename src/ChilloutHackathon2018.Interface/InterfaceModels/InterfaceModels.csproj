@@ -45,6 +45,7 @@
     <Compile Include="User\UserCredentials.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\UserInfo.cs" />
+    <Compile Include="Wall\WallModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

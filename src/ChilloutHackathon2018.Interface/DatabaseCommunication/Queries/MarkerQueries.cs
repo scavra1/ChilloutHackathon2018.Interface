@@ -6,18 +6,19 @@
 SELECT [MarkerID]
        , [Picture]
        , [ModelID]
+       , [UserID]
 FROM [dbo].[Markers]
 WHERE UserID = @UserID";
 
        
         public const string AddUserMarker = @"
 INSERT INTO [dbo].[Markers]
-OUTPUT [INSERTED].[MarkerID]
 (
     [UserID],
     [Picture],
     [ModelID]
 )
+OUTPUT [INSERTED].[MarkerID]
 VALUES (@UserID, @Picture, @ModelID)";
 
         public const string UpdateMarkerModelReference = @"
